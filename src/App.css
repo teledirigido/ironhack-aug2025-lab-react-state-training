@@ -1,0 +1,25 @@
+.App {
+  padding:1rem;
+}
+
+.item {
+  margin-bottom: 1rem;
+}
+
+.item-counter {
+  display: flex;
+  gap:1rem;
+  align-items: center;
+}
+
+.button-counter {
+  background-color: blue;
+  color: #FFF;
+  border:0 none;
+  padding:0.5rem 1rem;
+  transition: ease background-color 200ms;
+  &:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+  }
+}
